@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <h1>
+        Registration FORM
+    </h1>
+        <title> REGISTRATION PAGE
+
+        </title>
+        <body>
+           <form>
+            
+            <label> First Name:</label><br>
+            <input type="Textfield" name="fname"/><br>
+            <label> Middle Name:</label><br>
+            <input type="Textfield" name="Mname"/><br>
+            <label> Last  Name:</label><br>
+            <input type="Textfield" name="Lname"/><br>
+            <label> Address:</label><br>
+            <input type="Textfield" name="address"/><br>
+            <label>
+                Course:
+                </label>
+                <select>
+                    <option value="Course">Course</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BBA">BBA</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="MCA">MCA</option>
+                    <option value="MBA">MBA</option>
+                    <option value="M.Tech">M.Tech</option>
+                </select>
+                <br>
+                <br>
+    
+            <label> Gender:</label><br>
+            <input type="radio" id="gender"name="gender" value="male"/>Male
+            
+            <input type="radio"id="gender " name="gender" value="female"/>Female
+            <input type="radio"id="gender " name="gender" value="other"/>Other<br/>
+            <br>
+            <br>
+            <label>Phone:</label>
+            <input type="text" name="country code" value="+91 " size="2"/>
+            <input type="text" name="phone" size="10"/><br><br>
+            Address
+            <br>
+            <textarea cols="80" rows="5" value="address"></textarea>
+            <br><br>
+            Email:
+            <input type="email id"="email" name="email"/><br>
+            <br><br>
+            Password:
+            <input type="Password id"="pass" name="pass"/><br>
+            <br><br>
+             Re-type password:
+            <input type="Password id"="repass" name="repass"/><br>
+            <input type="button" value="submit"/>
+            </body>
+         </head>
+    <body bgcolor="Lightskyblue"></body>
+</html>
